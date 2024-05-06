@@ -2,7 +2,7 @@ import React from 'react'
 
 const PrimaryButton = (props) => {
     return (
-        <button className={`${props.className} btn-common text-white fs-sm fw-bold ff-inter`}
+        <button className={`${props.className} btn-common fs-sm fw-bold ff-inter`}
         >{props.text}</button>
     )
 }

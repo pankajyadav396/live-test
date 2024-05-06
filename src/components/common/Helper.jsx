@@ -6,17 +6,17 @@ export const Understandingarr = [
     {
         img: imgbulb,
         title: 'Magnified Returns',
-        para: 'Leveraged accounts amplify the potential returns on investments. By using borrowed capital, traders can control larger positions than their initial investment, thus increasing the profit potential if the trade moves in their favor.',
+        description: 'Leveraged accounts amplify the potential returns on investments. By using borrowed capital, traders can control larger positions than their initial investment, thus increasing the profit potential if the trade moves in their favor.',
     },
     {
         img: imgenergy,
         title: 'Portfolio Diversification',
-        para: 'Leveraged accounts allow traders to diversify their portfolio without needing to commit a large amount of capital to each position. This enables them to spread their risk across multiple assets or markets, potentially reducing the impact of a single adverse market movement.',
+        description: 'Leveraged accounts allow traders to diversify their portfolio without needing to commit a large amount of capital to each position. This enables them to spread their risk across multiple assets or markets, potentially reducing the impact of a single adverse market movement.',
     },
     {
         img: imgtrans,
         title: 'Enhanced Trading Opportunities',
-        para: 'With leverage, traders can take advantage of short-term trading opportunities that may not be feasible with a cash-only account. Leveraged accounts enable traders to capitalize on small price movements in the market, opening up a wider range of trading strategies and potentially increasing overall profitability.',
+        description: 'With leverage, traders can take advantage of short-term trading opportunities that may not be feasible with a cash-only account. Leveraged accounts enable traders to capitalize on small price movements in the market, opening up a wider range of trading strategies and potentially increasing overall profitability.',
     }
 ]
 
@@ -41,18 +41,18 @@ export const Somesteps = [
         btnText: "Open your account"
     }
 ]
-export const Staticksarr = [
+export const statisticsList = [
     {
         title: '757$',
-        para: 'Average earnings of a registered user from a deposit of $250',
+        description: 'Average earnings of a registered user from a deposit of $250',
     },
     {
         title: '128',
-        para: 'Average Registrations per day',
+        description: 'Average Registrations per day',
 
     },
     {
         title: '4x',
-        para: 'The Average Earnings Increase',
+        description: 'The Average Earnings Increase',
     }
 ]

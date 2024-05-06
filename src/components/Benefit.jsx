@@ -4,7 +4,8 @@ import imgbene2 from '../assets/images/png/benefitboxes.png'
 const Benefit = () => {
     return (
         <>
-            <div className='bg-benefit pb-5'>
+            <div className='bg-benefit pb-5 position-relative'>
+                <span className='glow position-absolute top-0 end-0'></span>
                 <div className="container">
                     <h1 className=" color-white2 pt-248 fs-lg ff-sans text-capitalize fw-bold text-center lh-57">How to benefit by investing <span className=' d-block'>in AI ETFs for
                         <span className=" color-skyblue "> high returns</span>  </span> </h1>
