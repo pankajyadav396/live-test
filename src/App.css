@@ -78,27 +78,6 @@
   color: var(--color-grey2) !important;
 }
 
-/* line-height */
-.lh-76 {
-  line-height: 76px;
-}
-
-.lh-24 {
-  line-height: 24.2px;
-}
-
-.lh-25 {
-  line-height: 25.6px;
-}
-
-.lh-32 {
-  line-height: 32px;
-}
-
-.lh-57 {
-  line-height: 57px;
-}
-
 /* =============================understanding============================== */
 .max-w-806 {
   max-width: 806px;
@@ -126,8 +105,9 @@
   background: var(--color-skyblue);
   width: 238.22px;
   height: 97.73px;
-  top: 424.82px;
-  left: 30%;
+  bottom: -28% !important;
+  left: 50%;
+  transform: translateX(-50%);
   filter: blur(100px);
   opacity: 0.4px;
 }
@@ -166,12 +146,12 @@
   background-color: white;
 }
 
-.timeline-box {
-  height: 317px;
-}
-
 .max-w-190 {
   max-width: 190px;
+}
+
+.max_w_324 {
+  max-width: 324px;
 }
 
 .bg-staticks {
@@ -186,18 +166,28 @@
 .max-w-921 {
   max-width: 921px !important;
 }
+
+.blurimg {
+  filter: blur(10px);
+  position: absolute;
+}
+
 /* =====================================benefits-=========================== */
 .bg-benefit {
-  background-image: url('../src/assets/images/webp/2ndsectionimg.webp');
+  background-image: url('../src/assets/images/png/2ndsectionimg.png');
   background-repeat: no-repeat;
   overflow: hidden;
   background-color: #0D0C19;
-  min-height: 2300px;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
-.pt-248{
-  padding-top: 248px;
+
+.pt-248 {
+  padding-top: 178px;
+}
+
+.pb_135 {
+  padding-bottom: 55px;
 }
 
 @media (min-width:576px) {
@@ -205,25 +195,61 @@
     /* font-size */
     --fs-sm: 16px;
     --fs-md: 20px;
-    --fs-lg: 48px;
-    --fs-xl: 64px;
+    --fs-lg: 40px;
+    --fs-xl: 50px;
   }
 
   .mx-sm-12 {
-    margin-right: -12px;
-    margin-left: -12px;
+    margin-right: -12px !important;
+    margin-left: -12px !important;
   }
 
   .blue-circle {
     width: 75px;
     height: 75px;
   }
+
+  .lh-76 {
+    line-height: 76px;
+  }
+
+  .lh-24 {
+    line-height: 24.2px;
+  }
+
+  .lh-25 {
+    line-height: 25.6px;
+  }
+
+  .lh-32 {
+    line-height: 32px;
+  }
+
+  .lh-57 {
+    line-height: 57px;
+  }
 }
 
-@media (min-width:992px) {
+@media (min-width:768px) {
   .blue-circle {
     width: 88px;
     height: 88px;
+  }
+
+  :root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-md: 20px;
+    --fs-lg: 44px;
+    --fs-xl: 54px;
+  }
+
+  .pt-248 {
+    padding-top: 248px;
+  }
+
+  .pb_135 {
+    padding-bottom: 135px;
   }
 }
 
@@ -233,6 +259,10 @@
     --fs-md: 20px;
     --fs-lg: 48px;
     --fs-xl: 64px;
+  }
+
+  .timeline-box {
+    height: 317px;
   }
 }
 

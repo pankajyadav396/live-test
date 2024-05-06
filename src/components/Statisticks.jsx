@@ -1,5 +1,5 @@
 import vector from '../assets/images/png/statickvector.png'
-import { Staticksarr } from '../common/Helper'
+import { Staticksarr } from './common/Helper'
 const Statisticks = () => {
     return (
         <>
