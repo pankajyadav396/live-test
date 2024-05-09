@@ -7,7 +7,7 @@ const Statisticks = () => {
                 <div className=' mt-lg-5'>
                     <div className="container-lg max-w-container pt-3 position-relative z-1">
                         <img src={vector} alt="img-vector" className=' position-absolute img-static d-none d-md-block w-100 start-0 top-0 z-n1' />
-                        <h1 className=" color-blue fs-lg ff-sans mb-md-5 pb-5 text-capitalize fw-bold text-center lh-57">Statisticks For <span className=" color-skyblue">Today</span></h1>
+                        <h2 className=" color-blue fs-lg ff-sans mb-md-5 pb-5 text-capitalize fw-bold text-center lh-57">Statisticks For <span className=" color-skyblue">Today</span></h2>
                         <div className=' max-w-921 px-sm-3 pt-2 mx-auto'>
                             <div className=' row m-0 mx-sm-12'>
                                 {statisticsList.map((obj, index) => {

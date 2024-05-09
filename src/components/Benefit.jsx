@@ -7,11 +7,11 @@ const Benefit = () => {
             <div className='bg-benefit pb-5 mt-2 position-relative'>
                 <span className='glow position-absolute top-0 end-0 d-none d-lg-block'></span>
                 <div className="container">
-                    <h1 className=" color-white2 pt-248 fs-lg ff-sans text-capitalize fw-bold text-center lh-57">How to benefit by investing <span className=' d-block'>in AI ETFs for
-                        <span className=" color-skyblue "> high returns</span>  </span> </h1>
+                    <h2 className=" color-white2 pt-248 fs-lg ff-sans text-capitalize fw-bold text-center lh-57">How to benefit by investing <span className=' d-block'>in AI ETFs for
+                        <span className=" color-skyblue "> high returns</span>  </span> </h2>
                     <p className=' color-white2 text-center fs-md pt-2 ff-inter max-w-806 mx-auto'>Artificial Intelligence Exchange Traded Funds are those funds that focus only on the companies that have evolved in the development of new products or services and technological improvements related to AI.</p>
                 </div>
-                <div className=' position-relative pb_135'>
+                <div className='position-relative pb_135'>
                     <img src={imgbene2} alt="img" className=' position-absolute bottom-0 h-100 w-100' />
                     <div className="container position-relative z-3">
                         <div className="row pt-5 mt-4 align-items-center justify-content-center">
@@ -26,7 +26,7 @@ const Benefit = () => {
                         </div>
                     </div>
                 </div>
-            </div >
+            </div>
         </>
     )
 }

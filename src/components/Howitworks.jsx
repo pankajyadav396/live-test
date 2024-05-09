@@ -14,7 +14,7 @@ const Howitworks = () => {
                 <h3 className=' mt-5 pt-4 color-blue fs-lg lh-57 fw-bold text-center text-capitalize'>You have to follow some steps </h3>
                 <div className="container-lg max-w-container mt-5 pb-4 mb-3 pt-4">
                     <div className='row pt-2 pb-md-5 mb-lg-5 position-relative z-1 justify-content-center'>
-                        <img src={timeline} alt="" className='position-absolute d-none d-lg-block timeline-img' />
+                        <img src={timeline} alt="img" className='position-absolute d-none d-lg-block timeline-img' />
                         {Somesteps.map((obj, index) => {
                             return (
                                 <div className={`${index == 2 ? "mt-5 mt-lg-0 pt-4 pt-lg-0" : index == 1 ? "mt-5 pt-sm-0 pt-4 mt-sm-0" : ""} col-lg-4 col-sm-6 position-relative timeline-box d-flex flex-column justify-content-between`}>
