@@ -44,7 +44,7 @@
 
 .btn-common {
   background-color: var(--color-skyblue);
-  padding: 21.5px 34px;
+  padding: 21.5px 34px !important;
   color: white;
   border-radius: 132px;
   text-wrap: nowrap;
@@ -75,7 +75,7 @@
 }
 
 .max-w-190 {
-  max-width: 190px;
+  max-width: 190px !important;
 }
 
 .max_w_324 {
@@ -170,7 +170,7 @@
   }
 
   .pb_135 {
-    padding-bottom: 135px;
+    padding-bottom: 118px;
   }
 }
 

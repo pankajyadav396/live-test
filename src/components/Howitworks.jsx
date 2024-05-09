@@ -24,9 +24,8 @@ const Howitworks = () => {
                                         </div>
                                         <p className='text-center mt-lg-4 pt-3 text-black lh-24 fw-bold ff-inter fs-md mb-2 pb-1'>{obj.title}</p>
                                         <p className={`${index == 2 ? "max-w-190" : ""} mx-auto text-center color-grey fw-normal fs-xsm lh-25 ff-inter max_w_324`}>{obj.description}</p>
-
                                     </div>
-                                    <PrimaryButton className="pt-3 mx-auto d-flex align-items-center justify-content-center" text={obj.btnText} />
+                                    <PrimaryButton className="mx-auto d-flex align-items-center justify-content-center" text={obj.btnText} />
                                 </div>
                             )
                         })}
